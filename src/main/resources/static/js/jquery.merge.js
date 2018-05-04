@@ -1,4 +1,4 @@
-/*!
+/*
  * jQuery Merge Plugin
  * version: 0.0.1-2018.05.04
  * Requires jQuery v1.9 or later
