@@ -3,10 +3,10 @@
  * version: 0.0.1-2018.05.04
  * Requires jQuery v1.9 or later
  * Copyright (c) 2018 WoooQi
- * Examples and documentation at: https://github.com/woooqi/merge
- * Project repository: https://github.com/woooqi/merge
+ * Examples and documentation at: https://github.com/woooqi/woooqi-merge
+ * Project repository: https://github.com/woooqi/woooqi-merge
  * Dual licensed under the MIT and GPL licenses.
- * https://github.com/woooqi/merge#copyright-and-license
+ * https://github.com/woooqi/woooqi-merge#copyright-and-license
  */
 ;(function($) {
 	$.fn.mergeCell = function(options) {
