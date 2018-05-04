@@ -1,2 +1,2 @@
 # woooqi-merge
-Table Merge
+基于Jquery的Table的合并
