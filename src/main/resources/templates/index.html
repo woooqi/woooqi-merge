@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-cn" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <title></title>
+    <script type="text/javascript" src="${ctx}/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="${ctx}/static/js/jquery.merge.js"></script>
+    <style type="text/css">
+        .table{
+            padding: 0px;
+            margin: 0px;
+            border-top: 1px solid #000;
+            border-right: 1px solid #000;
+        }
+        .table td{
+            border-bottom: 1px solid #000;
+            border-left: 1px solid #000;
+            padding: 0px;
+            margin: 0px;
+            width: 120px;
+            text-align: center;
+        }
+    </style>
+    <script type="application/javascript">
+        function merge(){
+            $("#table").mergeCell({
+                cols: [0,4] ,
+                rows: [0,6]
+            });
+        }
+    </script>
+</head>
+<body>
+
+    <table id="table" class="table" cellspacing="0">
+        <thead></thead>
+        <tbody>
+            <tr>
+                <td>地区</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>江苏省</td>
+                <td>常州市</td>
+                <td>天宁区</td>
+                <td>红梅街道</td>
+            </tr>
+            <tr>
+                <td>江苏省</td>
+                <td>常州市</td>
+                <td>天宁区</td>
+                <td>茶山街道</td>
+            </tr>
+            <tr>
+                <td>江苏省</td>
+                <td>常州市</td>
+                <td>钟楼区</td>
+                <td>南大街街道</td>
+            </tr>
+            <tr>
+                <td>江苏省</td>
+                <td>无锡市</td>
+                <td>惠山区</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>浙江省</td>
+                <td>杭州市</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <button onclick="merge()">合并</button>
+</body>
+</html>
