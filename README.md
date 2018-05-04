@@ -5,9 +5,9 @@
             cols: [0,4] ,//第0列至第4列
             rows: [0,6]//第0行至第6行
         });
-        使用前
-        ![Image text](https://github.com/woooqi/woooqi-merge/blob/master/src/main/resources/static/image/1.png)
-        使用后
-        ![Image text](https://github.com/woooqi/woooqi-merge/blob/master/src/main/resources/static/image/2.png)
-    2 源码
-    [visist it](https://github.com/woooqi/woooqi-merge/blob/master/src/main/resources/static/js/jquery.merge.js)
+        
+        ![使用前](https://github.com/woooqi/woooqi-merge/blob/master/src/main/resources/static/image/1.png)
+        
+        ![使用后](https://github.com/woooqi/woooqi-merge/blob/master/src/main/resources/static/image/2.png)
+    
+    [2 源码](https://github.com/woooqi/woooqi-merge/blob/master/src/main/resources/static/js/jquery.merge.js)
