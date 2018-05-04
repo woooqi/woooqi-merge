@@ -11,3 +11,5 @@
         ![使用后](https://github.com/woooqi/woooqi-merge/blob/master/src/main/resources/static/image/2.png)
     
     [2 源码](https://github.com/woooqi/woooqi-merge/blob/master/src/main/resources/static/js/jquery.merge.js)
+    
+    [Motan Quick Start](https://github.com/yu199195/myth/wiki/Motan-Quick-Start)
